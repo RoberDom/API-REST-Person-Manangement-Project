@@ -3,7 +3,7 @@ Nesta live coding vamos desenvolver um pequeno sistema para o gerenciamento de p
 
 Durante a sessão, serão desenvolvidos e abordados os seguintes tópicos:
 
-Setup inicial de projeto com o Spring Boot Initialzr
+Setup inicial de projeto com o Spring Boot Initialzer
 Criação de modelo de dados para o mapeamento de entidades em bancos de dados
 Desenvolvimento de operações de gerenciamento de usuários (Cadastro, leitura, atualização e remoção de pessoas de um sistema).
 Relação de cada uma das operações acima com o padrão arquitetural REST, e a explicação de cada um dos conceitos REST envolvidos durante o desenvolvimento do projeto.
@@ -26,14 +26,4 @@ Conta no Heroku para o deploy do projeto na nuvem
 Muita vontade de aprender e compartilhar conhecimento :)
 Abaixo, seguem links bem bacanas, sobre tópicos mencionados durante a aula:
 
-SDKMan! para gerenciamento e instalação do Java e Maven
-Referência do Intellij IDEA Community, para download
-Palheta de atalhos de comandos do Intellij
-Site oficial do Spring
-Site oficial do Spring Initialzr, para setup do projeto
-Site oficial do Heroku
-Site oficial do GIT
-Site oficial do GitHub
-Documentação oficial do Lombok
-Documentação oficial do Map Struct
-Referência para o padrão arquitetural REST
+
