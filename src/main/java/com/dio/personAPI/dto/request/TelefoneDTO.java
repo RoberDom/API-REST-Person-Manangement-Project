@@ -17,14 +17,12 @@ import javax.validation.constraints.Size;
 
 public class TelefoneDTO {
 
+    private Long Id;
 
-        private Long Id;
+    @Enumerated(EnumType.STRING)
+    private PhoneType tipo;
 
-
-        @Enumerated(EnumType.STRING)
-        private PhoneType tipo;
-
-        @NotEmpty // o campo não pode ser vazio
-        @Size(min=13, max=14) //limita o tamanho de numeros inseridos no campo
-        private String numero;
+    @NotEmpty // o campo não pode ser vazio
+    @Size(min = 13, max = 14) //limita o tamanho de números inseridos no campo
+    private String numero;
 }

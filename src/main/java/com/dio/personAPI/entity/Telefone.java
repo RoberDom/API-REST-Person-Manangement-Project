@@ -1,7 +1,7 @@
 package com.dio.personAPI.entity;
+
 import com.dio.personAPI.enums.PhoneType;
 import lombok.*;
-
 import javax.persistence.*;
 
 @Data

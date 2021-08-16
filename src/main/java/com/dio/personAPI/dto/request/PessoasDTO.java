@@ -15,28 +15,24 @@ import java.util.List;
 @NoArgsConstructor
 @Builder
 
-
-
 public class PessoasDTO {
 
+    private Long ID;
 
-        private Long ID;
+    @NotEmpty
+    private String nome;
 
-        @NotEmpty
-        private String nome;
+    @NotEmpty
+    private String sobrenome;
 
-        @NotEmpty
-        private String sobrenome;
+    @NotEmpty
+    @CPF // só aceita o padrão numérico de um CPF
+    private long cpf;
 
-        @NotEmpty
-        @CPF // só aceita o padrao numerico de um cpf
-        private long cpf;
+    private LocalDate aniversario;
 
+    @NotEmpty
+    @Valid
+    private List<TelefoneDTO> telefones;
 
-        private LocalDate aniversario;
-
-        @NotEmpty
-        @Valid
-        private List<TelefoneDTO> telefones;
-
-    }
+}
